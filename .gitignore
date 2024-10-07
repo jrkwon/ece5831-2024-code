@@ -1,3 +1,9 @@
+# Zip
+*.zip
+
+# Keras neural network models
+*.h5
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
