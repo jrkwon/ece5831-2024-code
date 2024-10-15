@@ -5,6 +5,9 @@
 # Keras neural network models
 *.h5
 
+# Python Pickle
+*.pkl
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
