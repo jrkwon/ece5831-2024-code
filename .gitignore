@@ -1,5 +1,6 @@
 # Zip
 *.zip
+*.gz
 
 # Keras neural network models
 *.h5
