@@ -1,6 +1,6 @@
 import numpy as np
-import activations
-import errors
+from activations import Activations
+from errors import Errors
 
 
 class TwoLayerNet:
@@ -13,8 +13,8 @@ class TwoLayerNet:
         self.params['w2'] = weight_init_std*np.random.randn(hidden_size, output_size)
         self.params['b2'] = np.zeros(output_size)
 
-        self.activations = activations.Activations()
-        self.errors = errors.Errors()
+        self.activations = Activations()
+        self.errors = Errors()
 
     def predict(self, x):
         w1, w2 = self.params['w1'], self.params['w2']
