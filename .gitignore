@@ -1,3 +1,12 @@
+# logs
+logs/
+
+# keras models
+*.keras
+
+# JPG
+*.jpg
+
 # Zip
 *.zip
 *.gz
